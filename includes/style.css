@@ -1,0 +1,469 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header, nav, aside, article, section, footer, main, button {
+    display: block;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+a, button{
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    list-style-type: none;
+}
+.needFont{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #8c8c8c;
+}
+.h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    position: relative;
+    top: 55px;
+
+}
+#wrapper {
+    width: 95%;
+    margin: 0px auto;
+}
+#logo {
+    position: relative;
+    top: 34px;
+    margin: 0px auto;
+    display: block;
+}
+button{
+    background-color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        height: 101px;
+    }
+    #logo {
+        background-image: url(../images/Logo.png);
+        height: 70px;
+        width: 135px;
+    }
+    .hButton {
+        float: left;
+        position: relative;
+        top: 34px;
+    }
+    #nightModeButt {
+        left: 13px;
+    }
+    header img {
+        float: right;
+        position: relative;
+        top: 34px;
+    }
+    header label {
+        float: right;
+        position: relative;
+        top: 80px;
+        right: -36px;
+        font-size: 13px;
+    }
+    #indexMain p {
+        position: relative;
+        top: 85px;
+        left: 13px;
+        font-size: 18px;
+    }
+    .addCarBoxes {
+        position: relative;
+        top: 150px;
+        float: left;
+        height: 124px;
+        width: 196px;
+        border: black solid;
+        border-color: #cccccc;
+        border-width: 1px;
+        border-radius: 10px;
+    }
+    .container {
+        position: relative;
+        top: 60px;
+
+    }
+    .addCarButt {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        font-size: 40px;
+        position: relative;
+        top: 25px;
+        margin: 0px auto;
+        text-align: center;
+        color: #ffffff;
+        background-color: green;
+    }
+    .allowedCar{
+        width: 90px;
+        height: 70px;
+        border-radius: 100%;
+        position: relative;
+        top: 25px;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .allowedCar label{
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 30px;
+        position: relative;
+        top: 55px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #000000;
+    }
+    #menuSection h1 {
+        right: 500px;
+        display: none;
+    }
+    #menuSection nav {
+        position: relative;
+        right: 500px;
+        display: none;
+        top: 95px;
+    }
+    #menuSection li a {
+        color: #8c8c8c;
+        font-size: 19px;
+        text-align: center;
+        border: none;
+    }
+    #addCarsMain{
+        position: relative;
+        top: -60px;
+    }
+    #addCarsMain section img{
+        position: relative;
+        left: 60px;
+        top: 17px;
+    }
+    #addCarsMain section article {
+        position: relative;
+        font-size: 18px;
+        left: 36px;
+        top: 20px;
+    }
+
+    main nav {
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        margin: 0px auto;
+    }
+    main nav ul {
+        margin: 0px auto;
+    }
+    .systemNav a {
+        float: left;
+        color: #8c8c8c;
+        padding-left: 20px;
+    }
+    #selected {
+        color: #000000;
+        position: relative;
+        text-decoration: underline;
+    }
+    .songBox {
+        height: 65px;
+        width: 95%;
+        border-bottom: #f1f1f1 solid 2px;
+        position: relative;
+        top: 35px;
+    }
+    .songImg {
+        position: relative;
+        top:15px;
+    }
+    .songName {
+        position: relative;
+        top: -30px;
+        left: 55px;
+        margin-right: 50px;
+    }
+    .writerName {
+        position: relative;
+        font-size: 11px;
+        top: -50px;
+        left: 60px;
+    }
+    .fa-trash {
+        position: relative;
+        left: 360px;
+        top: -90px;
+    }
+    #takeOverBtn {
+        width: 150px;
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        background-color: #ee5f5b;
+        color: #ffffff;
+        border-radius: 20%;
+        left: 137px;
+    }
+    audio {
+        position: fixed;
+        width: 85%;
+        margin: 0px auto;
+        bottom: 50px;
+    }
+    #friendsList ul{
+        list-style-type: none;
+        display: inline-block;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .friend{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        border-bottom: #f1f1f1 solid 2px;
+    }
+    .friend button{
+        margin-left: auto;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        align-self: center;
+    }
+    .friend label{
+        margin-left: 5px;
+        margin-bottom: 0px;
+        align-self: center;
+    }
+    .nextBtn{
+        position: relative;
+        border-radius: 9%;
+        width: 170px;
+        height: 60px;
+        background-color: #008000;
+        text-align: center;
+        color: #ffffff;
+        margin: 0px auto;
+        margin-top: 5px;
+    }
+    #systemsList ul{
+        list-style-type: none;
+        display: inline-block;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    .system{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        border-bottom: #f1f1f1 solid 2px;
+    }
+    .system button{
+        margin-left: auto;
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        align-self: center;
+    }
+    .system label{
+        margin-left: 5px;
+        margin-bottom: 0px;
+        align-self: center;
+    }
+    #indexMain div
+    {
+        position: absolute;
+        width: 95%;
+    }
+    #indexMain div img {
+        position: relative;
+    }
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    header {
+        height: 180px;
+    }
+    .hButton {
+        float: left;
+        position: relative;
+        top: 34px;
+        font-size: 30px;
+    }
+    #logo {
+        background-image: url(../images/LogoBig.png);
+        height: 130px;
+        width: 250px;
+    }
+    #nightModeButt {
+        left: 13px;
+    }
+    header img {
+        float: right;
+        position: relative;
+        right: 3%;
+        top: 34px;
+    }
+    header p {
+        float: right;
+        position: relative;
+        top: 80px;
+        right: -18px;
+        font-size: 25px;
+    }
+    #indexMain p {
+        position: relative;
+        top: 85px;
+        left: 13px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .addCarBoxes {
+        position: relative;
+        top: 150px;
+        float: left;
+        left: 3%;
+        height: 270px;
+        width: 450px;
+        border: black solid;
+        border-color: #cccccc;
+        border-width: 1px;
+        border-radius: 10px;
+    }
+    .addCarButt {
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        font-size: 70px;
+        position: relative;
+        top: 70px;
+        margin: 0px auto;
+        text-align: center;
+        color: #ffffff;
+        background-color: green;
+    }
+    h1 {
+        font-size: 65px;
+        position: relative;
+        top: 55px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #000000;
+    }
+    #menuSection h1 {
+        right: 500px;
+        display: none;
+    }
+    #menuSection nav {
+        position: relative;
+        right: 500px;
+        display: none;
+    }
+    #menuSection nav {
+        position: relative;
+        top: 95px;
+    }
+    #menuSection li a {
+        color: #8c8c8c;
+        font-size: 50px;
+        text-align: center;
+        border: none;
+    }
+    #addCarsMain{
+        position: relative;
+        top: -60px;
+    }
+    #addCarsMain section img{
+        position: relative;
+        left: 180px;
+        top: 70px;
+    }
+    #addCarsMain section article {
+        position: relative;
+        font-size: 30px;
+        left: 115px;
+        top: 100px;
+    }
+    main nav {
+        font-size: 40px;
+        position: relative;
+        top: 50px;
+        left: 15%;
+    }
+    main nav ul {
+        margin: 0px auto;
+    }
+    .systemNav a {
+        float: left;
+        color: #8c8c8c;
+        padding-left: 20px;
+    }
+    #selected {
+        color: #000000;
+        position: relative;
+        text-decoration: underline;
+    }
+    .songBox {
+        height: 110px;
+        width: 95%;
+        border-bottom: #f1f1f1 solid 2px;
+        position: relative;
+        top: 35px;
+    }
+    .songImg {
+        position: relative;
+        top:32px;
+    }
+    .songName {
+        position: relative;
+        top: -20px;
+        left: 80px;
+        margin-right: 70px;
+        font-size: 29px;
+    }
+    .writerName {
+        position: relative;
+        font-size: 23px;
+        top: -30px;
+        left: 90px;
+    }
+    .fa-trash {
+        position: relative;
+        font-size: 30px;
+        left: 860px;
+        top: -90px;
+    }
+    #takeOverBtn {
+        width: 350px;
+        height: 100px;
+        position: fixed;
+        bottom: 0px;
+        background-color: #ee5f5b;
+        color: #ffffff;
+        border-radius: 20%;
+        left: 307px;
+    }
+    audio {
+        position: fixed;
+        width: 85%;
+        margin: 0px auto;
+        bottom: 100px;
+    }
+}

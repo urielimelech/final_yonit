@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Allowed Car</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="includes/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <button class="hButton" id="menuButt"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                <button class="hButton" id="nightModeButt"><i class="fa fa-moon-o fa-2x" aria-hidden="true"></i></button>
+                <img src="images/Raheli.png">
+                <label class="needFont user">Raheli</label>
+                <a href="index.html" id="logo"></a>
+            </header>
+            <section id="menuSection">
+                <h1>Menu</h1>
+                <nav>
+                    <ul>
+                        <li><a class="list-group-item needFont" href="#"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp; Settings</a></li>
+                        <li><a class="list-group-item needFont" href="#"><i class="fa fa-heart" aria-hidden="true"></i>
+                            &nbsp; Favorites</a></li>
+                        <li><a class="list-group-item needFont" href="#"><i class="fa fa-car" aria-hidden="true"></i>
+                            &nbsp; Cars</a></li>
+                        <li><a class="list-group-item needFont" href="#"><i class="fa fa-users" aria-hidden="true"></i>
+                            &nbsp; Group admins</a></li>
+                        <li><a class="list-group-item needFont" href="#"><i class="fa fa-share-alt" aria-hidden="true"></i>
+                            &nbsp; Tell a friend</a></li>
+                    </ul>
+                </nav>
+            </section>
+    <main id="indexMain">
+            <p id="helloMessage" class="needFont">Hello Raheli, Which car will you be driving today?</p>
+            <div id="chooseAllowed">
+                <section class="addCarBoxes"><button class="allowedCar needFont"><img id="mazdaImg" src="images/mazda.png" ><label>Raheli's Mazda</label></button></section>
+                <section class="addCarBoxes"><button class="addCarButt needFont">+</button></section>
+                <section class="addCarBoxes"><button class="addCarButt needFont">+</button></section>
+                <section class="addCarBoxes"><button class="addCarButt needFont">+</button></section>
+            </div>
+    </main>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="includes/script.js"></script>
+</body>
+</html>
