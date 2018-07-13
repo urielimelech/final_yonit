@@ -57,7 +57,7 @@
                     <?php
                         echo '<section class="songBox"></section>';
                         while($row = mysqli_fetch_assoc($result)) {
-                            echo '<section class="songBox"><img class="songImg" src=' . $row["img"] . '><p class="songName needFont"> ' . $row["songName"] . ' ---- ' . $row["time"] . ' ---- ' . $row["user"] . '</p><p class="writerName needFont">' . $row["singer"] . '</p><button><i class="fa fa-trash" id=' . $row["id"] . ' aria-hidden="true"></i></button></section>';
+                            echo '<section class="songBox"><img class="songImg" src=' . $row["img"] . '><p class="songName needFont"> ' . $row["songName"] . ' ---- ' . $row["time"] . ' ---- ' . $row["user"] . '</p><p class="writerName needFont">' . $row["singer"] . '<a class="showDetails" href="lyrics.php?songId=' . $row["id"] . '">Lyrics</a></p><button><i class="fa fa-trash" id=' . $row["id"] . ' aria-hidden="true"></i></button></section>';
                         }
                         mysqli_free_result($result);
                         echo  "<audio controls>";

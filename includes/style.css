@@ -249,6 +249,7 @@ button{
     }
     .nextBtn{
         position: relative;
+        bottom: 0px;
         border-radius: 9%;
         width: 170px;
         height: 60px;
